@@ -323,15 +323,6 @@ section { position: relative; }
   color: var(--gold-300);
 }
 .tag-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.2rem; }
-.industry-logos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem 1.5rem;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(10,21,38,0.08);
-}
 
 .step-number {
   font-family: 'Fraunces', serif;
