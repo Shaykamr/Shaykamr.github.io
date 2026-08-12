@@ -41,20 +41,6 @@
 <main>
 
   <section class="hero">
-    <svg class="hero-path" viewBox="0 0 1200 700" fill="none" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg">
-      <path d="M650 620C760 620 760 500 830 460C900 420 900 340 850 300C800 260 800 180 870 150C940 120 1000 140 1080 90" stroke="url(#pathgrad)" stroke-width="1.5" stroke-dasharray="2 10" stroke-linecap="round"/>
-      <circle cx="650" cy="620" r="5" fill="#5b6b84"/>
-      <circle cx="830" cy="460" r="3" fill="#dfe7f3" fill-opacity="0.5"/>
-      <circle cx="850" cy="300" r="3" fill="#dfe7f3" fill-opacity="0.5"/>
-      <circle cx="1080" cy="90" r="6" fill="#ddc590"/>
-      <circle cx="1080" cy="90" r="12" stroke="#ddc590" stroke-opacity="0.4"/>
-      <defs>
-        <linearGradient id="pathgrad" x1="650" y1="620" x2="1080" y2="90">
-          <stop stop-color="#5b6b84" stop-opacity="0.5"/>
-          <stop offset="1" stop-color="#ddc590" stop-opacity="0.8"/>
-        </linearGradient>
-      </defs>
-    </svg>
     <div class="container">
       <div class="hero-grid">
         <div class="hero-copy reveal">
@@ -76,17 +62,17 @@
 
   <section class="section-pad-sm bg-white">
     <div class="container">
-      <p class="text-center" style="font-size:0.82rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--slate-500); margin-bottom:2rem;">Product &amp; engineering trusted by</p>
+      <p class="text-center" style="font-size:0.82rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--slate-500); margin-bottom:0.75rem;">Product &amp; engineering trusted by</p>
       <div class="logo-strip">
-        <span class="logo-chip chip-up"><img src="assets/logos/Barclays.png" alt="Barclays"></span>
-        <span class="logo-chip"><img src="assets/logos/TDBank.webp" alt="TD Bank"></span>
-        <span class="logo-chip chip-down"><img src="assets/logos/Nasdaq.png" alt="Nasdaq"></span>
-        <span class="logo-chip"><img src="assets/logos/FP.png" alt="Financial Post"></span>
-        <span class="logo-chip chip-up"><img src="assets/logos/emoov.png" alt="eMoov"></span>
-        <span class="logo-chip compact chip-down"><img src="assets/logos/Pay2M.png" alt="PAY2M"></span>
-        <span class="logo-chip compact"><img src="assets/logos/QAuto.png" alt="Q-Auto"></span>
-        <span class="logo-chip compact chip-up"><img src="assets/logos/ShareeqNeo.png" alt="Shareeq Neo"></span>
-        <span class="logo-chip compact chip-down"><img src="assets/logos/blox.png" alt="BLOX"></span>
+        <span class="logo-chip" style="--x:5%; --y:8px;"><img src="assets/logos/Barclays.png" alt="Barclays"></span>
+        <span class="logo-chip" style="--x:16.25%; --y:125px;"><img src="assets/logos/TDBank.webp" alt="TD Bank"></span>
+        <span class="logo-chip" style="--x:27.5%; --y:15px;"><img src="assets/logos/Nasdaq.png" alt="Nasdaq"></span>
+        <span class="logo-chip" style="--x:38.75%; --y:135px;"><img src="assets/logos/FP.png" alt="Financial Post"></span>
+        <span class="logo-chip" style="--x:50%; --y:20px;"><img src="assets/logos/emoov.png" alt="eMoov"></span>
+        <span class="logo-chip compact" style="--x:61.25%; --y:115px;"><img src="assets/logos/Pay2M.png" alt="PAY2M"></span>
+        <span class="logo-chip compact" style="--x:72.5%; --y:5px;"><img src="assets/logos/QAuto.png" alt="Q-Auto"></span>
+        <span class="logo-chip compact" style="--x:83.75%; --y:130px;"><img src="assets/logos/ShareeqNeo.png" alt="Shareeq Neo"></span>
+        <span class="logo-chip compact" style="--x:95%; --y:18px;"><img src="assets/logos/blox.png" alt="BLOX"></span>
       </div>
     </div>
   </section>
@@ -173,41 +159,64 @@
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow">Proven Track Record</p>
-        <h2>Enterprise-grade financial products</h2>
-        <p class="lede">We've designed and built financial products for institutions that demand enterprise-grade quality, the same standard our startups need when engaging banks, regulators, and investors.</p>
+        <h2>Built. Shipped. Proven.</h2>
+        <p class="lede">We've built products across the spectrum, from startups to banks and exchanges, experience we put to work helping founders build and grow.</p>
       </div>
 
-      <div class="case-row reveal">
+      <div class="case-row split reveal">
         <div class="case-meta">
-          <span class="tag">Global Exchange &amp; Market Intelligence</span>
-          <div class="logo-chip" style="margin-top:1rem;"><img src="assets/logos/Nasdaq.png" alt="Nasdaq"></div>
+          <div class="case-head-row">
+            <span class="tag">Global Exchange &amp; Market Intelligence</span>
+            <div class="logo-chip"><img src="assets/logos/Nasdaq.png" alt="Nasdaq"></div>
+          </div>
           <h3>An intelligent investing experience</h3>
           <p>Built a market sentiment product with real-time streaming widgets, contextual data overlays, and thematic alerting designed for speed, so traders and analysts consume intelligence at a glance.</p>
-        </div>
-        <div class="case-meta">
           <div class="tag-row">
             <span class="tag">Real-Time Streaming</span>
             <span class="tag">Sentiment Analysis</span>
             <span class="tag">Personalized Portfolios</span>
           </div>
-          <div class="case-metrics">
-            <div><strong>8.1%</strong><span>Registration conversion rate</span></div>
+        </div>
+        <div class="case-meta">
+          <div class="case-head-row">
+            <span class="tag">Payments</span>
+            <div class="logo-chip compact"><img src="assets/logos/Pay2M.png" alt="PAY2M"></div>
+          </div>
+          <h3>Core infrastructure for a licensed payments provider</h3>
+          <p>Built the core payment gateway, checkout flows, tokenization, fraud control, and e-invoicing, plus the compliance stack QCB licensing requires.</p>
+          <div class="tag-row">
+            <span class="tag">QCB Licensed</span>
+            <span class="tag">Tokenization</span>
+            <span class="tag">Fraud Control</span>
           </div>
         </div>
       </div>
 
-      <div class="case-row reveal">
+      <div class="case-row split reveal">
         <div class="case-meta">
-          <span class="tag">SME Business Hub</span>
-          <div class="logo-chip" style="margin-top:1rem;"><img src="assets/logos/Barclays.png" alt="Barclays"></div>
+          <div class="case-head-row">
+            <span class="tag">SME Business Hub</span>
+            <div class="logo-chip"><img src="assets/logos/Barclays.png" alt="Barclays"></div>
+          </div>
           <h3>Banking, invoicing &amp; commerce in one interface</h3>
           <p>Designed an SME business hub combining banking, invoicing, POS, payroll, and eCommerce, with open APIs integrating QuickBooks, Xero, Shopify, and Square, and zero-learning-curve onboarding for non-technical owners.</p>
-        </div>
-        <div class="case-meta">
           <div class="tag-row">
             <span class="tag">Open Banking APIs</span>
             <span class="tag">Unified Dashboard</span>
             <span class="tag">SME Onboarding</span>
+          </div>
+        </div>
+        <div class="case-meta">
+          <div class="case-head-row">
+            <span class="tag">Lending</span>
+            <div class="logo-chip compact"><img src="assets/logos/ShareeqNeo.png" alt="Shareeq Neo"></div>
+          </div>
+          <h3>Frictionless lending, built on a rigorous decisioning engine</h3>
+          <p>A user applies with just their national ID and gets approved in under ten minutes, backed by automated KYC, credit decisioning, and full sandbox compliance reporting.</p>
+          <div class="tag-row">
+            <span class="tag">QCB Sandbox</span>
+            <span class="tag">KYC Automation</span>
+            <span class="tag">Credit Scoring</span>
           </div>
         </div>
       </div>
@@ -222,7 +231,7 @@
     <div class="container">
       <div class="section-head reveal">
         <p class="eyebrow">How We Work</p>
-        <h2>From concept to MVP in weeks, not quarters</h2>
+        <h2>From concept to MVP in weeks</h2>
         <p class="lede">A five-phase co-creation framework, purpose-built for startups moving fast without cutting corners.</p>
       </div>
       <div class="grid-5">
@@ -246,7 +255,6 @@
         <p class="lede" style="margin:0 auto;">From ideation to growth, we adapt to exactly where your startup is today.</p>
         <div class="btn-row">
           <a href="contact.html" class="btn btn-gold">Start a Conversation</a>
-          <a href="work.html" class="btn btn-outline-light">See Our Work</a>
         </div>
       </div>
     </div>
